@@ -1,0 +1,40 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    padding:3rem;
+    min-height: 15vh;
+
+}
+.footerL{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+.footerD{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width:100vw;
+    margin-top: 1rem;
+   
+}
+.footerD a{
+    text-decoration: none;
+    font-size: larger;
+   margin: 1rem 1.5rem;
+}

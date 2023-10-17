@@ -1,0 +1,14 @@
+
+.card{
+    display:flex;
+    flex-direction: column;
+    width: 16rem;
+    padding:1.5rem;
+    margin:1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .card #h2{
+  align-self: center;
+  }
