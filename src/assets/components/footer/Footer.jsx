@@ -1,14 +1,15 @@
-import "./Footer.css";
+import style from "./Footer.module.css";
+
 export default function Footer() {
   return (
-    <footer className="footer">
-      <div className="footerI">
+    <footer className={style.footer}>
+      <div className={style.footerI}>
       <span>©2023   </span>
       <span> GBD</span>
 
       </div>
      
-      <div className="footerD">
+      <div className={style.footerD}>
         <a href="tel:+"><i className="fa-brands fa-whatsapp fa-sm"></i> </a>
         <a href="#">
           <i className="fa-brands fa-x-twitter fa-sm"></i>

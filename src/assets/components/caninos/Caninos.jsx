@@ -1,10 +1,10 @@
-import './Caninos.css'
+import style from "./Caninos.module.css";
 
 
 export default function Caninos({ canino }) {
   return (
-    <div className="card">
-      <h2 id='h2'>{canino.nombre}</h2>
+    <div className={style.card}>
+      <h2 className={style.h2}>{canino.nombre}</h2>
       <p>Edad: {canino.edad}</p>
       <p>Sexo: {canino.sexo}</p>
       <p>Raza: {canino.raza}</p>
@@ -12,4 +12,4 @@ export default function Caninos({ canino }) {
     </div>
   );
 }
-export { Caninos };
+

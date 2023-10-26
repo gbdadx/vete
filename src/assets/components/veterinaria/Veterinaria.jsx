@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Caninos from "../caninos/Caninos";
-import "./Veterinaria.css";
+import styles from "./Veterinaria.module.css";
 const Canino = [
   {
     id: 1,
@@ -54,12 +54,12 @@ const Canino = [
 ];
 
 const Veterinaria = () => {
-  const [state, setState] = useState(Canino);
+  const [state] = useState(Canino);
 
   return (
-    <div className="veterinaria">
-      <h1 id="h1">Clientes caninos de Veterinaria</h1>
-      <ul className="ul">
+    <div className={styles.veterinaria}>
+      <h1 className={styles.h1}>Clientes caninos de Veterinaria</h1>
+      <ul className={styles.ul}>
         {state.map((canino) => (
           <Caninos key={canino.id} canino={canino} />
         ))}

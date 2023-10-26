@@ -1,10 +1,10 @@
-import "./Main.css";
+import styles from"./Main.module.css";
 
 import Saludo from "./Saludo";
 
 export default function Main() {
   return (
-    <main className='main'>
+    <main className={styles.main}>
       
       
      <Saludo />
